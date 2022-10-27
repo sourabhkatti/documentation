@@ -666,7 +666,7 @@ main:
   - name: Funnel
     url: dashboards/widgets/funnel/
     parent: dashboards_widgets
-    weight: 18
+    weight: 18 
   - name: Geomap
     url: dashboards/widgets/geomap/
     parent: dashboards_widgets
@@ -716,24 +716,24 @@ main:
     url: dashboards/widgets/slo/
     parent: dashboards_widgets
     weight: 30
-  - name: Service Map
-    url: dashboards/widgets/service_map/
-    parent: dashboards_widgets
-    weight: 31
   - name: Service Summary
     url: dashboards/widgets/service_summary/
     parent: dashboards_widgets
-    weight: 32
+    weight: 31
   - name: Table
     url: dashboards/widgets/table/
     parent: dashboards_widgets
-    weight: 33
+    weight: 32
   - name: Timeseries
     url: dashboards/widgets/timeseries/
     parent: dashboards_widgets
-    weight: 34
+    weight: 33
   - name: Top List
     url: dashboards/widgets/top_list/
+    parent: dashboards_widgets
+    weight: 34
+  - name: Topology Map
+    url: dashboards/widgets/topology_map/
     parent: dashboards_widgets
     weight: 35
   - name: Querying
@@ -876,6 +876,10 @@ main:
     url: infrastructure/livecontainers/legacy
     parent: infrastructure_livecontainers
     weight: 502
+  - name: Cloud Cost
+    url: infrastructure/cloud_cost_management/
+    parent: infrastructure
+    weight: 6
   - name: Serverless
     url: serverless
     pre: serverless
@@ -998,11 +1002,6 @@ main:
     identifier: serverless_guides
     parent: serverless
     weight: 12
-  - name: Cloud Cost
-    url: cloud_cost_management/
-    pre: cloud-cost-management
-    parent: infrastructure_heading
-    weight: 110000
   - name: Metrics
     url: metrics/
     identifier: metrics_top_level
