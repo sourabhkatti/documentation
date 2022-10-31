@@ -7659,6 +7659,130 @@ api:
         - ListConfluentAccount
       unstable: []
       order: 10
+  - name: Fastly
+    url: /api/latest/fastly/
+    identifier: fastly
+    generated: true
+  - name: Update Fastly service
+    url: '#update-fastly-service'
+    identifier: fastly-update-fastly-service
+    parent: fastly
+    generated: true
+    params:
+      versions:
+        - v2
+      operationids:
+        - UpdateFastlyService
+      unstable: []
+      order: 9
+  - name: Get Fastly service
+    url: '#get-fastly-service'
+    identifier: fastly-get-fastly-service
+    parent: fastly
+    generated: true
+    params:
+      versions:
+        - v2
+      operationids:
+        - GetFastlyService
+      unstable: []
+      order: 8
+  - name: Delete Fastly service
+    url: '#delete-fastly-service'
+    identifier: fastly-delete-fastly-service
+    parent: fastly
+    generated: true
+    params:
+      versions:
+        - v2
+      operationids:
+        - DeleteFastlyService
+      unstable: []
+      order: 10
+  - name: Add Fastly service
+    url: '#add-fastly-service'
+    identifier: fastly-add-fastly-service
+    parent: fastly
+    generated: true
+    params:
+      versions:
+        - v2
+      operationids:
+        - CreateFastlyService
+      unstable: []
+      order: 7
+  - name: List Fastly services
+    url: '#list-fastly-services'
+    identifier: fastly-list-fastly-services
+    parent: fastly
+    generated: true
+    params:
+      versions:
+        - v2
+      operationids:
+        - ListFastlyService
+      unstable: []
+      order: 6
+  - name: Update Fastly account
+    url: '#update-fastly-account'
+    identifier: fastly-update-fastly-account
+    parent: fastly
+    generated: true
+    params:
+      versions:
+        - v2
+      operationids:
+        - UpdateFastlyAccount
+      unstable: []
+      order: 4
+  - name: Get Fastly account
+    url: '#get-fastly-account'
+    identifier: fastly-get-fastly-account
+    parent: fastly
+    generated: true
+    params:
+      versions:
+        - v2
+      operationids:
+        - GetFastlyAccount
+      unstable: []
+      order: 3
+  - name: Delete Fastly account
+    url: '#delete-fastly-account'
+    identifier: fastly-delete-fastly-account
+    parent: fastly
+    generated: true
+    params:
+      versions:
+        - v2
+      operationids:
+        - DeleteFastlyAccount
+      unstable: []
+      order: 5
+  - name: Add Fastly account
+    url: '#add-fastly-account'
+    identifier: fastly-add-fastly-account
+    parent: fastly
+    generated: true
+    params:
+      versions:
+        - v2
+      operationids:
+        - CreateFastlyAccount
+      unstable: []
+      order: 2
+  - name: List Fastly accounts
+    url: '#list-fastly-accounts'
+    identifier: fastly-list-fastly-accounts
+    parent: fastly
+    generated: true
+    params:
+      versions:
+        - v2
+      operationids:
+        - ListFastlyAccount
+      unstable: []
+      order: 1
   - name: Incident Services
     url: /api/latest/incident-services/
     identifier: incident-services
